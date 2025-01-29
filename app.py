@@ -74,7 +74,7 @@ with st.sidebar:
     st.header("Settings")
     llm_provider = st.selectbox("Choose LLM Provider", ["Gemini", "OpenRouter"])
     topic_input = st.text_input("Enter Question Topic", "GMAT Statistics")
-    num_questions_input = st.number_input("Number of Questions", min_value=1, max_value=10, value=2, step=1)
+    num_questions_input = st.number_input("Number of Questions", min_value=1, max_value=1000, value=2, step=1)
 
     # API Key input
     if llm_provider == "Gemini":
