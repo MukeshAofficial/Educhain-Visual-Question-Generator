@@ -15,7 +15,7 @@ An open-source project that automates the creation of visually engaging Multiple
 
 ## 🚀 Getting Started
 
-1.  **Clone the GitHub Repository:** (Add actual GitHub link here)
+1.  **Clone the GitHub Repository:** 
     ```bash
     git clone  https://github.com/gen-ai-experiments/visual-question-generator.git
     cd visual-question-generator
